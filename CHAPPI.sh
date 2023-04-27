@@ -11,6 +11,8 @@ pkg install openssh
 pkg install ftp
 pkg install nmap
 pkg install python
+pip install requests
+pip install progress
 mkdir /data/data/com.termux/files/home/password
 echo "ЗАПУСК  CHAPPI IN YOUR PHONE"
 echo -ne '[##                  ] [10%]\r'
@@ -65,5 +67,5 @@ read use
 nmap $use
 fi
 if [ "$use" =  "6" ]; then
-./brute.sh
+./bruteforce.sh
 fi
