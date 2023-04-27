@@ -9,7 +9,6 @@ if [ "$use" =  "yes" ]; then
 pkg install crunch
 pkg install openssh
 pkg install ftp
-pkg install ssh
 pkg install nmap
 pkg install python
 mkdir /data/data/com.termux/files/home/password/paswo>
