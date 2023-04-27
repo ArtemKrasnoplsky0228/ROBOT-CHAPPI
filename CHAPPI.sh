@@ -11,7 +11,7 @@ pkg install openssh
 pkg install ftp
 pkg install nmap
 pkg install python
-mkdir /data/data/com.termux/files/home/password/paswo>
+mkdir /data/data/com.termux/files/home/password
 echo "ЗАПУСК  CHAPPI IN YOUR PHONE"
 echo -ne '[##                  ] [10%]\r'
 sleep 1
