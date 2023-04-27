@@ -42,7 +42,7 @@ fi
 echo "USE NUMBER:"
 read use
 if [ "$use" =  "1" ]; then
-python ddos.py
+python Ddos.py
 fi
 if [ "$use" =  "2" ]; then
 echo "Enter command for connect:"
